@@ -16,24 +16,6 @@
 			<key>Path</key>
 			<string>___PACKAGENAMEASIDENTIFIER___.h</string>
 		</dict>
-		<key>___PACKAGENAMEASIDENTIFIER___NSBundleAdditions.h</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Categories</string>
-			</array>
-			<key>Path</key>
-			<string>___PACKAGENAMEASIDENTIFIER___NSBundleAdditions.h</string>
-		</dict>
-		<key>___PACKAGENAMEASIDENTIFIER___NSBundleAdditions.m</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Categories</string>
-			</array>
-			<key>Path</key>
-			<string>___PACKAGENAMEASIDENTIFIER___NSBundleAdditions.m</string>
-		</dict>
 		<key>___PACKAGENAME___-Prefix.pch:objC:importFoundation</key>
 		<string>#import &lt;Foundation/Foundation.h&gt;
 </string>
@@ -48,8 +30,6 @@
 	<array>
 		<string>___PACKAGENAME___-Prefix.pch:objC:importFoundation</string>
 		<string>___PACKAGENAMEASIDENTIFIER___.h</string>
-		<string>___PACKAGENAMEASIDENTIFIER___NSBundleAdditions.h</string>
-		<string>___PACKAGENAMEASIDENTIFIER___NSBundleAdditions.m</string>
 	</array>
 	<key>Options</key>
 	<array>
@@ -102,6 +82,30 @@
 				<key>true</key>
 				<array>
 					<dict>
+						<key>Definitions</key>
+						<array>
+							<dict>
+								<key>Group</key>
+								<array>
+									<string>Categories</string>
+								</array>
+								<key>Path</key>
+								<string>___PACKAGENAMEASIDENTIFIER___NSBundleAdditions.h</string>
+							</dict>
+							<dict>
+								<key>Group</key>
+								<array>
+									<string>Categories</string>
+								</array>
+								<key>Path</key>
+								<string>___PACKAGENAMEASIDENTIFIER___NSBundleAdditions.m</string>
+							</dict>
+						</array>
+						<key>Nodes</key>
+						<array>
+							<string>___PACKAGENAMEASIDENTIFIER___NSBundleAdditions.h</string>
+							<string>___PACKAGENAMEASIDENTIFIER___NSBundleAdditions.m</string>
+						</array>
 						<key>Components</key>
 						<array>
 							<dict>
