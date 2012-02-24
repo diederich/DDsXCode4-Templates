@@ -20,8 +20,7 @@
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Nodes</key>
 	<array>
-		<string>Info.plist</string>
-		<string>Classes/MainVC/Resources/MainVC.xib</string>
+		<string>Library-Base.xcconfig</string>
 	</array>
 </dict>
 </plist>
