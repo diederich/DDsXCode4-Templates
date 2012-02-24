@@ -7,7 +7,7 @@
 	<key>Identifier</key>
 	<string>de.ddsheimat.dt.unit.cocoaTouchFrameworkResourceBundle</string>
 	<key>Concrete</key>
-	<true/>
+	<false/>
 	<key>Description</key>
 	<string>This template builds a bundle that links against the UIKit or Core Foundation framework.</string>
 	<key>SortOrder</key>
