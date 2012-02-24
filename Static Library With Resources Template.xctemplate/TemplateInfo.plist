@@ -147,9 +147,9 @@
 							<key>BasedOn</key>
 							<dict>
 								<key>Debug</key>
-								<string>/Configurations/Project.xcconfig</string>
+								<string>Project.xcconfig</string>
 								<key>Release</key>
-								<string>/Configurations/Project.xcconfig</string>
+								<string>Project.xcconfig</string>
 							</dict>
 						</dict>
 					</dict>
