@@ -142,10 +142,42 @@
 								<key>TargetIndices</key>
 								<array/>
 							</dict>
+							<key>../Configurations/Library-Base.xcconfig</key>
+							<dict>
+								<key>Path</key>
+								<string>Library-Base.xcconfig</string>
+								<key>TargetIndices</key>
+								<array/>
+							</dict>
+							<key>../Configurations/Library-Release.xcconfig</key>
+							<dict>
+								<key>Path</key>
+								<string>Library-Release.xcconfig</string>
+								<key>TargetIndices</key>
+								<array/>
+							</dict>
+							<key>../Configurations/Library-Debug.xcconfig</key>
+							<dict>
+								<key>Path</key>
+								<string>Library-Debug.xcconfig</string>
+								<key>TargetIndices</key>
+								<array/>
+							</dict>
+							<key>../Configurations/Warnings.xcconfig</key>
+							<dict>
+								<key>Path</key>
+								<string>Warnings.xcconfig</string>
+								<key>TargetIndices</key>
+								<array/>
+							</dict>
 						</dict>
 						<key>Nodes</key>
 						<array>
 							<string>../Configurations/Project.xcconfig</string>
+							<string>../Configurations/Library-Base.xcconfig</string>
+							<string>../Configurations/Library-Release.xcconfig</string>
+							<string>../Configurations/Library-Debug.xcconfig</string>
+							<string>../Configurations/Warnings.xcconfig</string>
 						</array>
 						<key>Project</key>
 						<dict>
@@ -157,6 +189,18 @@
 								<string>../Configurations/Project.xcconfig</string>
 							</dict>
 						</dict>
+						<key>Targets</key>
+						<array>
+							<dict>
+								<key>BasedOn</key>
+								<dict>
+									<key>Debug</key>
+									<string>../Configurations/Library-Debug.xcconfig</string>
+									<key>Release</key>
+									<string>../Configurations/Library-Release.xcconfig</string>
+								</dict>
+							</dict>
+						</array>
 					</dict>
 				</array>
 			</dict>
