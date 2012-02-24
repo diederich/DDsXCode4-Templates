@@ -136,13 +136,60 @@
 				</array>
 			</dict>
 		</dict>
+		<dict>
+			<key>Default</key>
+			<string>true</string>
+			<key>Description</key>
+			<string>Include xcconfig configuration file</string>
+			<key>Identifier</key>
+			<string>includeXcconfigs</string>
+			<key>Name</key>
+			<string>Include xcconfig file</string>
+			<key>SortOrder</key>
+			<integer>1</integer>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Units</key>
+			<dict>
+				<key>true</key>
+				<array>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>../Configurations/Library-ResourceBundle.xcconfig</key>
+							<dict>
+								<key>Path</key>
+								<string>Library-ResourceBundle.xcconfig</string>
+								<key>TargetIndices</key>
+								<array/>
+							</dict>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>../Configurations/Library-ResourceBundle.xcconfig</string>
+						</array>
+						<key>Targets</key>
+						<array>
+							<dict>
+								<key>BasedOn</key>
+								<dict>
+									<key>Debug</key>
+									<string>../Configurations/Library-ResourceBundle.xcconfig</string>
+									<key>Release</key>
+									<string>../Configurations/Library-ResourceBundle.xcconfig</string>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+				</array>
+			</dict>
+		</dict>
 	</array>
 	<key>Nodes</key>
 	<array>
 		<string>___PACKAGENAME___-Prefix.pch:objC:importCocoa</string>
 		<string>___PACKAGENAME___-Info.plist:bundle</string>
 		<string>___PACKAGENAME___-Info.plist:NSHumanReadableCopyright</string>
-		<string>Configurations/Library-ResourceBundle.xcconfig</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
