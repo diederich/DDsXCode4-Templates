@@ -6,10 +6,10 @@
 	<false/>
 	<key>Definitions</key>
 	<dict>
-		<key>Library-Base.xcconfig</key>
+		<key>Project.xcconfig</key>
 		<dict>
 			<key>Path</key>
-			<string>Library-Base.xcconfig</string>
+			<string>Project.xcconfig</string>
 		</dict>
 	</dict>
 	<key>Description</key>
@@ -20,7 +20,7 @@
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Nodes</key>
 	<array>
-		<string>Library-Base.xcconfig</string>
+		<string>Project.xcconfig</string>
 	</array>
 </dict>
 </plist>

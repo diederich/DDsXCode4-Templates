@@ -133,28 +133,23 @@
 				<key>true</key>
 				<array>
 					<dict>
-						<key>Definitions</key>
-						<dict>
-							<key>../Configurations/Project.xcconfig</key>
-							<dict>
-								<key>Path</key>
-								<string>Project.xcconfig</string>
-								<key>TargetIndices</key>
-								<array/>
-							</dict>
-						</dict>
-						<key>Nodes</key>
+						<key>Components</key>
 						<array>
-							<string>../Configurations/Project.xcconfig</string>
+							<dict>
+								<key>Identifier</key>
+								<string>de.ddsheimat.libraryXcconfigs</string>
+								<key>Name</key>
+								<string>Configurations</string>
+							</dict>
 						</array>
 						<key>Project</key>
 						<dict>
 							<key>BasedOn</key>
 							<dict>
 								<key>Debug</key>
-								<string>../Configurations/Project.xcconfig</string>
+								<string>/Configurations/Project.xcconfig</string>
 								<key>Release</key>
-								<string>../Configurations/Project.xcconfig</string>
+								<string>/Configurations/Project.xcconfig</string>
 							</dict>
 						</dict>
 					</dict>
