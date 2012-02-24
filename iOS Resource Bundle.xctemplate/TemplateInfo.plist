@@ -11,7 +11,7 @@
 	<key>Description</key>
 	<string>This template builds a bundle that links against the UIKit or Core Foundation framework.</string>
 	<key>SortOrder</key>
-	<integer>3</integer>
+	<integer>1</integer>
 	<key>Ancestors</key>
 	<array>
 		<string>com.apple.dt.unit.bundleBase</string>
