@@ -15,7 +15,7 @@
   static NSBundle *___PACKAGENAMEASIDENTIFIER___ResourcesBundle;
 
   dispatch_once(&onceToken, ^{
-    NSString* bundleName = @"___PACKAGENAMEASIDENTIFIER___";
+    NSString* bundleName = @"___PACKAGENAMEASIDENTIFIER___Resources";
 
     NSURL* bundleURL = [[NSBundle mainBundle] URLForResource:bundleName withExtension:@"bundle"];
     if(bundleURL) {
