@@ -7,6 +7,7 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import <<#ClassUnderTest#>.h>
 
 @interface ___FILEBASENAMEASIDENTIFIER___ : SenTestCase {
 
@@ -27,7 +28,7 @@
   [super tearDown];
 }
 
--(void)test___FILEBASENAMEASIDENTIFIER___ {
+-(void)testThat___FILEBASENAMEASIDENTIFIER___ {
   STAssertFalse(0, @"Not implemented");
 }
 
