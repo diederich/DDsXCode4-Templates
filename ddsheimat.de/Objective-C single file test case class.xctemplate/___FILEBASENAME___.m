@@ -7,7 +7,7 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
-#import <<#ClassUnderTest#>.h>
+#import "<#ClassUnderTest#>.h"
 
 @interface ___FILEBASENAMEASIDENTIFIER___ : SenTestCase {
 
